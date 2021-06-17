@@ -16,5 +16,5 @@
 
 ## Инструкция по использованию проекта:
 
-- Форма для преверки практических заданий [**здесь**](https://masterenkodv.github.io/PHPDEV-14_module_9_task_1-5/)
+- Форма для преверки практических заданий [**здесь**](https://masterenkodv.github.io/PHPDEV-14_module_10_task_10.7/)
 
