@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Калькулятор</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+
+<main>
+    <div class="conteiner">
+
+        <input type="text" class="inputWindow" id="inputWindow" value="0">
+        <p class="resultOut" id="resultOut"></p>
+        <div class="button" id="button">
+            <div class="additionalOperations" id="additionalOperations">
+                <button class="operation" id="clear">С</button>
+                <button class="operation" id="root">&radic;</button>
+                <button class="operation" id="percent">%</button>
+                <button class="operation" id="delete">&#8592;</button>
+            </div>
+            <div class="digitalPanel" id="digitalPanel">
+                <button class="num" id="numOne">1</button>
+                <button class="num" id="numTwo">2</button>
+                <button class="num" id="numThree">3</button>
+                <button class="operation" id="plus">+</button>
+                <br>
+                <button class="num" id="numFour">4</button>
+                <button class="num" id="numFive">5</button>
+                <button class="num" id="numSix">6</button>
+                <button class="operation" id="minus">-</button>
+                <br>
+                <button class="num" id="numSeven">7</button>
+                <button class="num" id="numEight">8</button>
+                <button class="num" id="numNine">9</button>
+                <button class="operation" id="multiply">*</button>
+                <br>
+                <button class="num" id="inversion">+/-</button>        
+                <button class="num" id="numZero">0</button>
+                <button class="num" id="point">.</button>
+                <button class="operation" id="share">/</button>
+            </div>
+        </div>
+        <button class="result" id="result">=</button>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

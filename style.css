@@ -1,0 +1,77 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.conteiner {
+    margin-top: 100px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: rgba(1,1,1,0.4);
+}
+
+.inputWindow {
+    font-size: 3em;
+    padding: 3% 2%;
+    width: 250px;
+    text-align: right;
+}
+
+.section {
+    width: 250px;
+    height: 50px;
+    text-align: right;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.additionalOperations, .digitalPanel {
+    margin: 3% auto;
+}
+
+.digitalPanel button {
+    margin: 1% 0;
+}
+
+.num, .operation {
+    width: 23.5%;
+    height: 40px;
+}
+
+.result {
+    width: 89%;
+    height: 40px;
+    background-color: rgba(5, 5, 5, 0.541);
+    color: white;
+}
+
+#clear {
+    background-color: rgba(252, 16, 16, 0.87); 
+    color: white;
+}
+
+.resultOut {
+    margin: 3% 0 0 0;
+    padding: 3% 2%;
+    width: 89%;
+    height: 30px;
+    text-align: right;
+    font-size: 1.5em;
+}
